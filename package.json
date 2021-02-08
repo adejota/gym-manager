@@ -1,0 +1,16 @@
+{
+  "name": "gym-manager",
+  "version": "1.0.0",
+  "description": "Sistema de controle de instrutores e membros de uma academia",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "intl": "^1.2.5",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "nunjucks": "^3.2.1"
+  }
+}
