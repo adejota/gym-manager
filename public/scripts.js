@@ -68,8 +68,14 @@ if (pagination) {
 }
 
 const linksMobile = document.querySelector(".links-mobile")
+const backgroundLinks = document.querySelector(".background-links")
 
 function toggleLinks() {
     linksMobile.classList.toggle("hidden")
+    backgroundLinks.classList.toggle("hidden")
 }
 
+backgroundLinks.addEventListener("click", function () {
+    linksMobile.classList.add(".hidden")
+    backgroundLinks.classList.add(".hidden")
+})
