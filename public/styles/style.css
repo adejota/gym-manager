@@ -505,6 +505,10 @@ td:last-child {
         display: none;
     }
 
+    .table-responsive {
+        padding: 0;
+    }
+
     form.card {
         width: 92%;
 
