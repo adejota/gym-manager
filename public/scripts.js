@@ -67,3 +67,9 @@ if (pagination) {
     createPagination(pagination)
 }
 
+const linksMobile = document.querySelector(".links-mobile")
+
+function toggleLinks() {
+    linksMobile.classList.toggle("hidden")
+}
+

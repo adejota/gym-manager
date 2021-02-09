@@ -21,9 +21,9 @@
         <thead>
             <tr>
                 <th>Nome</th>
-                <th>Email</th>
-                <th>Peso</th>
-                <th>Altura</th>
+                <th class="mobile-responsive">Email</th>
+                <th class="mobile-responsive">Peso</th>
+                <th class="mobile-responsive">Altura</th>
                 <th></th>
             </tr>
         </thead>
@@ -33,9 +33,9 @@
                 <td>
                     <span style="background-image: url({{ member.avatar_url }})"></span>
                     {{ member.name }}</td>
-                <td> {{ member.email }}</td>
-                <td> {{ member.weight }}kg</td>
-                <td> {{ member.height }}cm</td>
+                <td class="mobile-responsive"> {{ member.email }}</td>
+                <td class="mobile-responsive"> {{ member.weight }}kg</td>
+                <td class="mobile-responsive"> {{ member.height }}cm</td>
 
                 <td><a href="/members/{{ member.id }}">Ver</a></td>
             </tr>
