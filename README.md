@@ -19,7 +19,7 @@ O projeto é bem simples e utiliza apenas:
 
 
 Para rodar a aplicação é necessário que você tenha o Node.js e o MySQL instalado em seu ambiente.
-No terminal, vá até a pasta onde você costuma deixar os seus projetos e realize os comandos:
+No terminal, vá até a pasta onde você costuma deixar os seus projetos e execute os comandos:
 
 
 ```sh
